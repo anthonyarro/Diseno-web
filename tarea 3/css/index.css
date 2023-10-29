@@ -1,0 +1,153 @@
+.titulo1 {
+    font-weight: bolder;
+    background-color: #000000a0;
+}
+
+.titulo2 {
+    font-size: 40px;
+    color: #fff;
+
+}
+
+.titulo3 {
+    color: #000;
+    font-size: 50px;
+}
+
+.banner1 {
+    background-image: url("../imagenes/cafe.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container-fluid1 {
+    padding-top: 210px;
+    padding-bottom: 200px;
+}
+
+.container-fluid2{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+
+.fondo { 
+    background-color: #000000;
+}
+
+.container-fluid3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-fluid4 {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+
+.banner2 {
+    background-image: url("../imagenes/banner2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container-fluid5 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container-fluid6 {
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+.imagen1{
+    width: 400px;
+    height: 300px;
+}
+
+.cuadro{
+    margin-left: 115px;
+}
+
+
+.banner-section {
+    background-attachment: fixed;
+    background-size: cover;
+    /*control altura del banner*/
+    background-position: center;
+    background-image: url('../imagenes/cafe.jpg');
+    background-color: #928372;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 400px;
+}
+
+.container-botonws {
+    /*color de fondo imagen*/
+    background-color: #020202;
+    border: 1px solid #000000;
+    position: fixed;
+    z-index: 1000;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 25px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+
+.container-botonws:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+/*efecto de animación imagen chat*/
+
+.botonws {
+    width: 60px;
+    transition: ease 1s;
+}
+
+@keyframes efecto {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100% {
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    }
+}
+
+
+/*ICONO WHATAPP*/
+
+
+
+.whatsapp {
+    position: fixed;
+    z-index: 1000;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    border-radius: 50%;    
+    line-height: 20px;    
+    font-size: 60px;
+    text-decoration: none;
+    transition: all 1s ease-in;
+}
+
+div .whatsapp:hover {
+    background-color: rgb(0, 0, 0) !important;
+}
+
+
+.images{
+    width: 265px;
+    height: 165px;
+    margin-right: 30px;
+}
